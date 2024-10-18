@@ -10,6 +10,6 @@ namespace AwesymeGym.Core.Interfaces.Services
 {
     public interface IInscricaoService
     {
-        ResultadoInscricaoDTO Realizar(Aluno aluno, Unidade unidade, TurmaAtividade turmaAtividade);
+        ResultadoInscricaoDTO Realizar(Aluno aluno, AvaliacaoFisica avaliacaoFisica, ExameMedico exameMedico, Unidade unidade, TurmaAtividade turmaAtividade);
     }
 }

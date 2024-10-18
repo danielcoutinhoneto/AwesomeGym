@@ -16,22 +16,22 @@ namespace AwesomeGym.Infrastructure.Persistence.Repositories
         {
             var unidade1 = new Unidade("Unidade 1", "Rua Marombeira")
             {
-                Alunos = new List<Aluno> { new Aluno("Aluno 1", "", new DateTime(1992, 1, 1)) },
-                Funcionarios = new List<Funcionario> { new Funcionario("Funcionario 1", DateTime.Now) },
+                Alunos = new List<Aluno> { new Aluno("Aluno 1", "067.895.233-89", new DateTime(1992, 1, 1), "073 99109-5725", "073 99109-5725", "danielcoutinhoneto@gmail.com") },
+                Funcionarios = new List<Funcionario> { new Funcionario("Funcionario 1", "teste@teste.com", "987.459.206-20", DateTime.Now) },
                 Equipamentos = new List<Equipamento> { new Equipamento("Equipamento 1", "Equipamento para treino de peitoral.", DateTime.Now) }
             };
 
             var unidade2 = new Unidade("Unidade 2", "Rua Levanta Peso")
             {
-                Alunos = new List<Aluno> { new Aluno("Aluno 2", "", new DateTime(1992, 1, 1)) },
-                Funcionarios = new List<Funcionario> { new Funcionario("Funcionario 2", DateTime.Now) },
+                Alunos = new List<Aluno> { new Aluno("Aluno 2", "123.456.789-01", new DateTime(1995, 5, 15), "073 99100-1234", "073 99100-1234", "aluno2@example.com") },
+                Funcionarios = new List<Funcionario> { new Funcionario("Funcionario 2", "func2@example.com", "654.987.123-45", DateTime.Now) },
                 Equipamentos = new List<Equipamento> { new Equipamento("Equipamento 2", "Equipamento para treino de peitoral.", DateTime.Now) }
             };
 
             var unidade3 = new Unidade("Unidade 3", "Rua Suplementar")
             {
-                Alunos = new List<Aluno> { new Aluno("Aluno 3", "", new DateTime(1992, 1, 1)) },
-                Funcionarios = new List<Funcionario> { new Funcionario("Funcionario 3", DateTime.Now) },
+                Alunos = new List<Aluno> { new Aluno("Aluno 2", "123.456.789-01", new DateTime(1995, 5, 15), "073 99100-1234", "073 99100-1234", "aluno2@example.com") },
+                Funcionarios = new List<Funcionario> { new Funcionario("Funcionario 4", "func4@example.com", "741.852.963-36", DateTime.Now) },
                 Equipamentos = new List<Equipamento> { new Equipamento("Equipamento 3", "Equipamento para treino de peitoral.", DateTime.Now) }
             };
 

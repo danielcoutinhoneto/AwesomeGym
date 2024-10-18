@@ -6,7 +6,7 @@ namespace AwesymeGym.Core.Services
 {
     public class InscricaoService : IInscricaoService
     {
-        public ResultadoInscricaoDTO Realizar(Aluno aluno, Unidade unidade, TurmaAtividade turmaAtividade)
+        public ResultadoInscricaoDTO Realizar(Aluno aluno, AvaliacaoFisica avaliacaoFisica, ExameMedico exameMedico, Unidade unidade, TurmaAtividade turmaAtividade)
         {
             throw new NotImplementedException();
         }
